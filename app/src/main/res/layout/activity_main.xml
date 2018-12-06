@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".View.Activity.MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/playshow"
+        android:layout_width="match_parent"
+        android:layout_height="385dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/musicplayer"
+            android:layout_width="197dp"
+            android:layout_height="197dp"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:background="@drawable/musicplayer"
+             />
+
+        <ImageView
+            android:id="@+id/transparentone"
+            android:layout_width="208dp"
+            android:layout_height="208dp"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:background="@drawable/transparentone" />
+
+        <ImageView
+            android:id="@+id/transparenttwo"
+            android:layout_width="228dp"
+            android:layout_height="228dp"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:background="@drawable/transparenttwo" />
+
+        <TextView
+            android:id="@+id/timeTextView"
+            android:layout_width="300dp"
+            android:layout_height="55dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="9dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginStart="0dp"
+            android:text="00:00:00"
+            android:textAlignment="center"
+            android:textSize="40sp" />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="183dp"
+        android:layout_alignParentBottom="true">
+
+        <Button
+            android:id="@+id/filebtn"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="65dp"
+            android:background="@drawable/file" />
+        <Button
+            android:id="@+id/flagbtn"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="65dp"
+            android:background="@drawable/favorite" />
+        <Button
+            android:id="@+id/playbtn"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/microphone" />
+
+
+        <Button
+            android:id="@+id/stopInterimbtn"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/stopinterim"
+            android:visibility="invisible" />
+
+        <Button
+            android:id="@+id/stopbtn"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="65dp"
+            android:background="@drawable/stop" />
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>
